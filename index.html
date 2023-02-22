@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Official My School</title>
+    <link rel="stylesheet" href="css/bootstrap-minimized.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Top Navbar  -->
+    <nav class="navbar bg-body-tertiary shadow-sm">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon" data-bs-target="#offcanvasNavbar"></span>
+            </button>
+            <span class="navbar-brand px-2"><span class="text-main fw-bold">My </span>Schools</span>
+            <div class="offcanvas offcanvas-start" data-bs-hideresize="true" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLabel">Navigasi <span class="text-main
+                         fw-bold">My
+                        </span>School
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <li>
+                            <a class="nav-link active" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-house align-text-top me-3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
+                                </svg>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-images align-text-top me-3" viewBox="0 0 16 16">
+                                    <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                                    <path
+                                        d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z" />
+                                </svg>
+                                Gallery
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                    fill="currentColor" class="bi bi-people-fill align-text-top me-3"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                                </svg>
+                                The Big Family
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-newspaper align-text-top me-3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z" />
+                                    <path
+                                        d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+                                </svg>
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-person-lines-fill align-text-top me-3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" />
+                                </svg>
+                                Contact Us
+                            </a>
+                        </li>
+                        <div class="py-4">
+                            <h5 class="offcanvas-title" id="offcanvasLabel">Akademik
+                            </h5>
+                        </div>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-person-fill-gear align-text-top me-3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Zm9.886-3.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" />
+                                </svg>
+                                Portal Siswa
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-person-workspace align-text-top me-3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                                    <path
+                                        d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z" />
+                                </svg>
+                                Portal PPDB
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="toggleTheme" class="i-light mx-2"></div>
+        </div>
+    </nav>
+    <!-- End of Top Navbar -->
+
+    <!-- Main Content -->
+    <section id="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/building.svg" class="d-block img-fluid" alt="bangunan sekolah">
+                                <div class="carousel-caption bg-dark bg-opacity-50">
+                                    <h4>Tempat strategis dan mudah dijangkau</h4>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/akreditasi.svg" class="d-block img-fluid" alt="akreditasi sekolah">
+                                <div class="carousel-caption bg-dark bg-opacity-50">
+                                    <h4>Terakreditasi "A"</h4>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/teach.svg" class="d-block img-fluid" alt="pengajaran sekolah">
+                                <div class="carousel-caption bg-dark bg-opacity-50">
+                                    <h4>Tenaga pengajar yang ahli dan terdidik</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 mt-3 shadow-sm text-center">
+                        <div class="card-header border-0 pb-0">
+                            <h4>Welcome</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>SMA Islam Sultan Agung 2 Kalinyamatan Jepara merupakan salah satu Sekolah
+                                Menengah Atas
+                                Swasta yang di dirikan oleh Yayasan Badan Wakaf Sultan Agung cabang Jepara yang
+                                berpusat
+                                di Semarang.</p>
+                            <a href="#" class="mt-3 mBtn shadow-sm">Explore Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Main Content -->
+    <!-- Footer -->
+    <footer class="fixed-bottom py-2 mt-3">
+        <div class="container">
+            <p class="text-secondary-emphasis text-center small mb-0">
+                &#169; 2023 My School</a>
+            </p>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
