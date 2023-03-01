@@ -81,7 +81,14 @@ body {
   transition: all ease .5s
 }
 
+.akademik {
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 .nav-link {
+  padding-left: 15px;
   padding-top: 8px;
   padding-bottom: 8px;
   margin-top: 4px;
@@ -93,16 +100,17 @@ body {
 .nav-link:active {
   color: #84d19f !important;
   background-color: #84d19f33;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
   border-left: 2px solid #84d19f;
-  border-width: 3px;
-  padding-left: 15px;
+  border-width: 5px;
   transition: all ease .2s
 }
 
 #main {
   padding-top: 120px;
+}
+
+.offcanvas-body {
+  padding: 0 !important;
 }
 
 section {
