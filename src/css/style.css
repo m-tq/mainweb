@@ -92,7 +92,9 @@ body {
   padding-top: 8px;
   padding-bottom: 8px;
   margin-top: 4px;
-  margin-bottom: 4px
+  margin-bottom: 4px;
+  border-left: 2px solid transparent;
+  border-width: 5px;
 }
 
 .nav-link:hover,
@@ -100,8 +102,7 @@ body {
 .nav-link:active {
   color: #84d19f !important;
   background-color: #84d19f33;
-  border-left: 2px solid #84d19f;
-  border-width: 5px;
+  border-color: #84d19f;
   transition: all ease .2s
 }
 
@@ -129,11 +130,12 @@ section {
 
 .s-title h4::after {
   content: "";
-  width: 10%;
-  height: 1px;
-  display: inline-block;
+  width: 1.5%;
+  height: 3px;
+  display: block;
   background: #84d19f;
-  margin: 4px 10px;
+  margin: 5px 0 0 0;
+  border-radius: 5px;
 }
 
 .carousel-item {
@@ -307,6 +309,10 @@ section {
     font-size: small;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .s-title h4::after {
+    width: 4%;
   }
 
   #main {
