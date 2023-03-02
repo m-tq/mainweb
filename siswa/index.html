@@ -5,14 +5,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portal Siswa</title>
-    <link rel="stylesheet" href="css/bootstrap-minimized.css">
+    <link rel="stylesheet" href="/src/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- Top Navbar  -->
     <nav class="navbar bg-body-tertiary shadow-sm">
-        <div class="container">
+        <div class="container ms-2">
+            <a href="/">
+                <button class="navbar-toggler" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z" />
+                        <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
+                    </svg>
+                </button>
+            </a>
             <span class="navbar-brand px-2">Portal Siswa - My Schools</span>
             <div id="toggleTheme" class="i-light mx-2"></div>
         </div>
@@ -32,13 +42,13 @@
                     </div>
                     <form class="px-5 needs-validation" novalidate>
                         <label for="nis" class="small text-muted">NIS *</label>
-                        <div class="input-group flex-nowrap mb-4">
+                        <div class="input-group mb-4">
                             <span class="input-group-text text-secondary"><i class="i-nisn"></i></span>
                             <input inputmode="numeric" pattern="[0-9]*" type="text" maxlength="4" id="nis" name="nis"
                                 class="form-control" aria-label="nis" required>
                         </div>
                         <label for="password" class="small text-muted">Password *</label>
-                        <div class="input-group flex-nowrap mb-3">
+                        <div class="input-group mb-3">
                             <span class="input-group-text text-secondary"><i class="i-pass"></i></span>
                             <input inputmode="text" type="password" id="password" name="password" class="form-control"
                                 aria-label="password" required>
